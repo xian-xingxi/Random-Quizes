@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <h1>RANDOM QUIZ</h1>
+    <hr>
+    <H2>Question 1</H2>
+    <p>
+      What <span>country</span> uses the flag below? (<a href="https://www.canada.ca/en.html" target="_blank">HINT</a>)
+    </p>
+    <img class="black-border" src="Media/canada-flag.png" alt="Canada Flag" width="400px">
+    <p class="italic">Answer: <input id="in1" type="text"><span id="input1"></span></p>
+    <hr>
+
+    <h2>Question 2</h2>
+    <p>Which of the following is <strong>not</strong> a piece used in the chess?</p>
+    <ul>
+      <li>Pawn</li>
+      <li>Knight</li>
+      <li>Cardinal</li>
+      <li>Rook</li>
+      <li>Queen</li>
+      <li>King</li>
+    </ul>
+    <p class="italic">Answer: <input id="in2" type="text"><span id="input2"></span></p>
+    <hr>
+
+    <h2>Question 3</h2>
+    <p>
+      How many provinces are in Canada? (<a href="https://www.tripsavvy.com/canada-provinces-and-territories-1481740"
+        target="_blank">Hint</a>)
+    </p>
+    <img src="Media/Canada map.jpg" alt="Canada Map" width="300px">
+    <p class="italic">Answer: <input id="in3" type="number"><span id="input3"></span></p>
+    <hr>
+
+    <h2>Question 4</h2>
+    <p>Who is the current prime minister of Canada?</p>
+    <img src="Media/trudeau.jpg" alt="Justin Trudeau" width="300px">
+    <p class="italic">Answer: <input id="in4" type="text"><span id="input4"></span></p>
+    <hr>
+
+    <h2>Question 5</h2>
+    <p>Which of the following person is not a political leader?</p>
+    <ol type="A">
+      <li><span class="new">Donald Trump</span></li>
+      <li><span class="new">Xi Jingpin</li></span>
+      <li><span class="new">Kim jong un</li></span>
+      <li><span class="new">Justin Trudeau</li></span>
+      <li><span class="new">Justin Bieber</li></span>
+    </ol>
+    <p class="italic">Answer: <input id="in5" type="text"><span id="input5"></span></p>
+    <hr>
+
+    <h2>Results</h2>
+    <p><button id="btn" type="button">Mark Quiz</button> Your score is <span id="output1">___</span>/5 (<span
+        id="output2">___</span><span id="percent">%</span>).</p>
+    <br>
+    <p id="show"></p>
+    <br>
+    <p>Thanks for taking this <span class="end">Random Quiz!</span></p>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
